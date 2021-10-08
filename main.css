@@ -1,0 +1,50 @@
+body {
+    background: hsl(20, 100%, 10%);
+    color: white;
+    margin : 0px;
+    overflow : hidden;
+}
+
+table {
+    text-align: center;
+    height: 80vh;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    border : 2px solid white;
+}
+.buttonList {
+    height : 20vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    height : 100%;
+    width : 50%;
+    background-color: hsl(20, 50%, 50%);
+    color : white;
+    border : 1px white solid;
+    font-size : 30px;
+    cursor:pointer;
+}
+.buttonList button:last-child {
+    flex-shrink: 100;
+}
+.reseter {
+    width : 100%;
+    height : 15vh;
+    font-size: 3rem;
+    background : none;
+    border : none;
+}
+marquee { 
+    text-align: center;
+    font-size : 220px;
+    color : white;
+}
+h1 {
+    text-align: center;
+    margin : 7vh;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
